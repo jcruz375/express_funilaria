@@ -60,11 +60,12 @@ a {
   gap: 0.5rem;
   background: $greenWhatsApp;
   min-width: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border-radius: 32px;
   font-weight: 400;
   color: #ffffff;
   border: none;
+  text-transform: uppercase;
   &::after {
     display: none;
   }
