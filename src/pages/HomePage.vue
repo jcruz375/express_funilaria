@@ -4,8 +4,8 @@
     <section
       class="d-flex flex-column justify-content-center align-items-center mt-5"
     >
-      <h2>Serviços em até 4 horas!</h2>
-      <p class="my-1 text-center w-50">
+      <h2 class="text-center">Serviços em até 4 horas!</h2>
+      <p class="my-1 text-center w-100 w-md-50">
         Utilizando tecnologia de ponta em reparos automotivos, completamos
         serviços de pintura em menos de 4 horas. <br>
         <small>
@@ -13,9 +13,8 @@
           desmontagem.
         </small>
       </p>
-      <article class="d-flex w-50">
+      <article class="d-flex w-75 w-md-50">
         <CarrosselSlider class="my-4" />
-
       </article>
       <b-button class="btn-wpp mt-2 mb-5">
         <i class="fab fa-whatsapp"></i>
@@ -48,6 +47,12 @@ export default {
     small {
       font-size: 0.7rem;
       font-weight: 400;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
     }
   }
 </style>
