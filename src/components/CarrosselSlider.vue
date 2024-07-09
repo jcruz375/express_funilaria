@@ -9,13 +9,13 @@
     @slideChange="onSlideChange"
   >
     <SwiperSlide>
-      <img src="../../public/assets/carro-3.jpg" alt="">
+      <img src="../../public/assets/carro-3.jpg" alt="Imagem de um carro sendo reparado na oficina Funilaria Express">
     </SwiperSlide>
     <SwiperSlide>
-      <img src="../../public/assets/carro-2.jpg" alt="">
+      <img src="../../public/assets/carro-2.jpg" alt="Imagem de um carro sendo reparado na oficina Funilaria Express">
     </SwiperSlide>
     <SwiperSlide>
-      <img src="../../public/assets/carro-4.jpg" alt="">
+      <img src="../../public/assets/carro-4.jpg" alt="Imagem de um carro sendo reparado na oficina Funilaria Express">
     </SwiperSlide>
   </swiper>
 </template>

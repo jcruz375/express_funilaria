@@ -1,28 +1,24 @@
 @import './variables.scss';
 
 
-/* Estilize a scrollbar */
-/* WebKit-based browsers */
 ::-webkit-scrollbar {
-  width: 12px; /* Largura da scrollbar */
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: $lightWhite; /* Cor da trilha da scrollbar */
-  border-radius: 10px; /* Arredondar os cantos */
+  background: $lightWhite;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $orange; /* Cor da barra */
-  border-radius: 10px; /* Arredondar os cantos */
-  border: 2px solid $lightWhite; /* Espessura e cor da borda */
+  background-color: $orange;
+  border-radius: 10px;
+  border: 2px solid $lightWhite;
 }
 
-/* Estilize a scrollbar para Firefox */
-/* Precisa de prefixos para suporte cruzado */
 * {
-  scrollbar-width: thin; /* Largura fina da scrollbar */
-  scrollbar-color: $orange $lightWhite; /* Cor da barra e da trilha */
+  scrollbar-width: thin;
+  scrollbar-color: $orange $lightWhite;
 }
 
 
@@ -50,5 +46,28 @@ h1 {
   &:hover {
     background: $orange;
     filter: brightness(0.9);
+  }
+}
+
+.btn-wpp {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+  background: $greenWhatsApp;
+  min-width: 100px;
+  padding: 0.5rem 1rem;
+  border-radius: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  &::after {
+    display: none;
+  }
+
+  transition: 0.2s;
+  &:hover {
+    background: $greenWhatsApp;
+    filter: brightness(0.8);
   }
 }

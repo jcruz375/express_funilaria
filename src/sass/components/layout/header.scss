@@ -10,6 +10,7 @@ nav {
 
   ul {
     list-style: none;
+    margin-bottom: 0;
   }
 
   a {
@@ -31,21 +32,6 @@ nav {
     &:hover {
       &::after {
         width: 100%;
-      }
-    }
-
-    &.btn {
-      display: flex;
-      align-items: center;
-      font-size: 1.5rem;
-      gap: 0.5rem;
-      background: #25D366;
-      &::after {
-        display: none;
-      }
-      &:hover {
-        background: #25D366;
-        filter: brightness(0.8);
       }
     }
     &.logo {

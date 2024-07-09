@@ -22,7 +22,7 @@
           <a href="#" rel="noopener noreferrer">Localização</a>
         </li>
         <li>
-          <a class="btn" href="#" rel="noopener noreferrer">
+          <a class="btn-wpp" href="#" rel="noopener noreferrer">
             <i class="fab fa-whatsapp"></i>
             Entre em contato
           </a>

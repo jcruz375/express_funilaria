@@ -1,11 +1,26 @@
 <template>
   <main>
     <HeaderComponent />
-    <section class="d-flex flex-column justify-content-center align-items-center mt-5">
+    <section
+      class="d-flex flex-column justify-content-center align-items-center mt-5"
+    >
       <h2>Serviços em até 4 horas!</h2>
+      <p class="my-1 text-center w-50">
+        Utilizando tecnologia de ponta em reparos automotivos, completamos
+        serviços de pintura em menos de 4 horas. <br>
+        <small>
+          *Retoques de pintura rápidos sem necessidade de funilaria ou
+          desmontagem.
+        </small>
+      </p>
       <article class="d-flex w-50">
-        <CarrosselSlider class="my-5" />
+        <CarrosselSlider class="my-4" />
+
       </article>
+      <b-button class="btn-wpp mt-2 mb-5">
+        <i class="fab fa-whatsapp"></i>
+        saber mais
+      </b-button>
     </section>
   </main>
 </template>
@@ -15,10 +30,24 @@ export default {
   components: {
     HeaderComponent: () => import("../components/HeaderComponent.vue"),
     CarrosselSlider: () => import("../components/CarrosselSlider.vue"),
-  }
-}
+  },
+};
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../sass/global.scss";
 
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1rem;
+
+    small {
+      font-size: 0.7rem;
+      font-weight: 400;
+    }
+  }
 </style>
