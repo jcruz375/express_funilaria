@@ -1,9 +1,36 @@
 @import './variables.scss';
 
+
+/* Estilize a scrollbar */
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: $lightWhite; /* Cor da trilha da scrollbar */
+  border-radius: 10px; /* Arredondar os cantos */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $orange; /* Cor da barra */
+  border-radius: 10px; /* Arredondar os cantos */
+  border: 2px solid $lightWhite; /* Espessura e cor da borda */
+}
+
+/* Estilize a scrollbar para Firefox */
+/* Precisa de prefixos para suporte cruzado */
+* {
+  scrollbar-width: thin; /* Largura fina da scrollbar */
+  scrollbar-color: $orange $lightWhite; /* Cor da barra e da trilha */
+}
+
+
 body {
   background-color: $lightWhite;
   overflow-x: hidden;
-  font-family: 'Roboto', Arial, sans-serif;;
+  font-family: 'Roboto', Arial, sans-serif;
+  min-height: 100vh;
 }
 
 h1 {
