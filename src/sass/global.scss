@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+body {
+  background-color: $lightWhite;
+  overflow-x: hidden;
+  font-family: 'Roboto', Arial, sans-serif;;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.btn {
+  background: $orange;
+  color: #ffffff;
+  min-width: 100px;
+  padding: 0.5rem 1rem;
+  border-radius: 32px;
+  font-weight: 400;
+  
+  transition: 0.2s;
+  &:hover {
+    background: $orange;
+    filter: brightness(0.9);
+  }
+}
