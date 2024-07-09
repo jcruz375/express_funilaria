@@ -4,7 +4,7 @@
     <section
       class="d-flex flex-column justify-content-center align-items-center mt-5"
     >
-      <h2 class="text-center">Serviços em até 4 horas!</h2>
+      <h1 class="text-center">Serviços em até 4 horas!</h1>
       <p class="my-1 text-center w-100 w-md-50">
         Utilizando tecnologia de ponta em reparos automotivos, completamos
         serviços de pintura em menos de 4 horas. <br>
@@ -36,22 +36,23 @@ export default {
 <style lang="scss" scoped>
 @import "../sass/global.scss";
 
-  h2 {
+  h1 {
     font-size: 2.5rem;
     font-weight: 700;
   }
 
   p {
     font-size: 1rem;
+    padding: 0 1rem;
 
     small {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       font-weight: 400;
     }
   }
 
   @media (max-width: 768px) {
-    h2 {
+    h1 {
       font-size: 2rem;
     }
   }
