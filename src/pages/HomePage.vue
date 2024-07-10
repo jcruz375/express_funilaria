@@ -16,10 +16,10 @@
       <article class="d-flex w-75 w-md-50">
         <CarrosselSlider class="my-4" />
       </article>
-      <b-button class="btn-wpp mt-2 mb-5">
+      <a href="https://api.whatsapp.com/send?phone=5511994718878" target="_blank" class="btn-wpp mt-2 mb-5">
         <i class="fab fa-whatsapp"></i>
         saber mais
-      </b-button>
+      </a>
     </section>
   </main>
 </template>

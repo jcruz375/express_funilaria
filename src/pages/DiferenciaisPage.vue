@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex flex-column justify-content-center align-items-center mb-5">
+  <section id="diferenciais" class="d-flex flex-column justify-content-center align-items-center mb-5">
     <h2>Conheça nossos diferenciais</h2>
 
     <b-row class="mt-5 px-5">
@@ -65,7 +65,7 @@
       </b-col>
     </b-row>
     
-    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-wpp">
+    <a href="https://api.whatsapp.com/send?phone=5511994718878" target="_blank" rel="noopener noreferrer" class="btn-wpp">
       <i class="fab fa-whatsapp"></i>
       Venha conhecer
     </a>

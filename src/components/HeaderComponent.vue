@@ -12,13 +12,13 @@
 
     <b-collapse id="nav-collapse" is-nav class="justify-content-end">
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">Serviços</b-nav-item>
-        <b-nav-item href="#">Resultados</b-nav-item>
-        <b-nav-item href="#">
+        <b-nav-item href="#diferenciais">Diferenciais</b-nav-item>
+        <b-nav-item href="#serviços">Serviços</b-nav-item>
+        <b-nav-item href="https://maps.app.goo.gl/hmxzpXpbKhBv9yYS8" target="_blank">
           <b-icon icon="geo-alt" class="me-2"></b-icon>
           Localização
         </b-nav-item>
-        <b-nav-item href="#" class="btn-wpp">
+        <b-nav-item href="https://api.whatsapp.com/send?phone=5511994718878" class="btn-wpp">
           <i class="fab fa-whatsapp"></i>
           Entre em contato
         </b-nav-item>

@@ -6,7 +6,7 @@
       >
         <h3>Entre em contato!</h3>
         <a
-          href="#"
+          href="https://api.whatsapp.com/send?phone=5511994718878"
           target="_blank"
           rel="noopener noreferrer"
           class="btn-wpp mt-3"
