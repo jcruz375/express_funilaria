@@ -21,6 +21,10 @@
         </b-col>
       </template>
     </b-row>
+    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-wpp mt-5">
+      <i class="fab fa-whatsapp"></i>
+      Solicitar orçamento
+    </a>
   </section>
 </template>
 

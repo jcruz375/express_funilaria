@@ -3,6 +3,7 @@
     <HomePage />
     <DiferenciaisPage />
     <ServicosPage />
+    <FooterComponent />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ export default {
     HomePage            : () => import('./pages/HomePage'),
     DiferenciaisPage    : () => import('./pages/DiferenciaisPage.vue'),
     ServicosPage        : () => import('./pages/ServicosPage.vue'),
+    FooterComponent     : () => import('./components/FooterComponent.vue'),
   }
 };
 </script>
