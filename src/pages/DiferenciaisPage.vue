@@ -77,6 +77,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@import "../sass/global.scss";
 img {
   max-width: 85%;
 }

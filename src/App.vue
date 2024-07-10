@@ -2,6 +2,7 @@
   <div id="app">
     <HomePage />
     <DiferenciaisPage />
+    <ServicosPage />
   </div>
 </template>
 
@@ -9,8 +10,9 @@
 export default {
   name: 'App',
   components: {
-    HomePage: () => import('./pages/HomePage'),
-    DiferenciaisPage: () => import('./pages/DiferenciaisPage.vue'),
+    HomePage            : () => import('./pages/HomePage'),
+    DiferenciaisPage    : () => import('./pages/DiferenciaisPage.vue'),
+    ServicosPage        : () => import('./pages/ServicosPage.vue'),
   }
 };
 </script>
