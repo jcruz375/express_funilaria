@@ -14,14 +14,21 @@
           <i class="fab fa-whatsapp"></i>
           (11) 99471-8878
         </a>
-        <b-row class="mt-4 d-flex flex-column flex-md-row justify-content-center">
-          <article class="text-center">
-            Segunda a sexta das 8:00 ás 18:00
-          </article>
-          <article class="text-center">
-            Rua Nigéria, 130 Pq Oratório, Santo André, Brazil 09251-130
-          </article>
-        </b-row>
+        <!-- <a
+          class="email_link mt-3"
+          href="mailto:contato@expressfunilaria.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-regular fa-envelope"></i>
+          contato@expressfunilaria.com
+        </a> -->
+        <article class="text-center mt-3">
+          Segunda a sexta das 8:00 ás 18:00
+        </article>
+        <article class="text-center mt-3">
+          Rua Nigéria, 130 Pq Oratório, Santo André, Brazil 09251-130
+        </article>
       </section>
     </b-container>
   </footer>
@@ -38,7 +45,12 @@ footer {
   padding: 2rem;
   background: #e06f30;
   min-height: 200px;
-  color: #FFF;
+  color: #fff;
+
+  .email_link {
+    color: #fff;
+    text-decoration: none;
+  }
 
   article {
     width: 500px;
@@ -51,6 +63,5 @@ footer {
       border: none;
     }
   }
-
 }
 </style>  
