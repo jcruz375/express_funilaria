@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="primary" class="custom-navbar">
-    <b-navbar-brand href="#">
+    <b-navbar-brand href="/">
       <img
         src="../../public/assets/logo.svg"
         alt="Logo funilaria"
