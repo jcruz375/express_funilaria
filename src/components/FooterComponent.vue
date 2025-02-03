@@ -27,7 +27,7 @@
           Segunda a sexta das 8:00 ás 18:00
         </article>
         <article class="text-center mt-3">
-          Rua Nigéria, 130 Pq Oratório, Santo André, Brazil 09251-130
+          Avenida Getúlio Vargas 1778 baeta Neves São Bernardo do Campo
         </article>
       </section>
     </b-container>
